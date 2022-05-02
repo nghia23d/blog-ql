@@ -1,2 +1,2 @@
 # blog-ql
-Laravel Vuels Grapql
+Laravel VueJs Grapql
