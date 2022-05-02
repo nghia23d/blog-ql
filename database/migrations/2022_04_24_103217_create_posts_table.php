@@ -21,7 +21,7 @@ class CreatePostsTable extends Migration
 
             //topic
             $table->unsignedBigInteger('topic_id')->index()->nullable();
-            $table->foreign('topic_id')->references('id')->on('topis');
+            $table->foreign('topic_id')->references('id')->on('topics');
 
             //user
             $table->unsignedBigInteger('author_id')->index()->nullable();
