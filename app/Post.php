@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Post extends Model
 {
-    public function posts(): BelongsTo
+    public function topic(): BelongsTo
     {
         return $this->belongsTo(Topic::class);
     }
